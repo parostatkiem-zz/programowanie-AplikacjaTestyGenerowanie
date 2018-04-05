@@ -1,6 +1,6 @@
 ﻿namespace AplikacjaTestyGenerowanie
 {
-    partial class Form1
+    partial class ViewCreatorWindow
     {
         /// <summary>
         /// Required designer variable.
@@ -28,9 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // ViewCreatorWindow
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(537, 462);
+            this.Name = "ViewCreatorWindow";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+
         }
 
         #endregion

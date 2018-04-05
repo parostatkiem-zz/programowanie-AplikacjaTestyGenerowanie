@@ -16,7 +16,10 @@ namespace AplikacjaTestyGenerowanie
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Model model = new Model();
+            ViewCreatorWindow view = new ViewCreatorWindow();
+            Presenter p = new Presenter(model, view);
+            Application.Run(view);
         }
     }
 }

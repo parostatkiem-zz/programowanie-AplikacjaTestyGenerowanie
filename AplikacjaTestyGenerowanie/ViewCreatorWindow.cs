@@ -10,11 +10,17 @@ using System.Windows.Forms;
 
 namespace AplikacjaTestyGenerowanie
 {
-    public partial class Form1 : Form
+    public partial class ViewCreatorWindow : Form, IView
     {
-        public Form1()
+        public ViewCreatorWindow()
         {
             InitializeComponent();
         }
+
+        #region Public
+        #endregion
+
+        #region Private
+        #endregion
     }
 }
