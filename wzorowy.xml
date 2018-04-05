@@ -1,0 +1,18 @@
+<potrzebne metadane dokumentu xml>
+<test>
+	<title>Nazwa testu</title>
+	<questions>
+		<question multiChoice=true >
+			<text>Treść pytania</text>
+			
+			<answer right=true>
+				<text>Odpowiedź 1</text>
+			</answer>
+			
+			<answer right=false>
+				<text>Odpowiedź 2</text>
+			</answer>
+			
+		</question>		
+	</questions>
+</test>
